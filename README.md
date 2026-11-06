@@ -5,7 +5,7 @@ the Gulf. Uses [kwtsms-cli](https://github.com/kwtsms/kwtsms-cli), one file with
 
 ## Requirements
 
-- Nagios Core 4, or Icinga 2.
+- Nagios Core 4 or Icinga 2 (config checked on Nagios Core 4.5.12 and Icinga 2.16.6).
 - The monitoring server can reach `https://www.kwtsms.com`.
 - A kwtSMS account with API access. [Sign up free](https://www.kwtsms.com/signup/).
 
