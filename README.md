@@ -34,7 +34,7 @@ sudo chmod 600 /etc/kwtsms/kwtsms-cli.toml
 Use the API username and password of your kwtSMS account, not your mobile number. The password stays in this file,
 never on a command line where other users could see it.
 
-Check it as the monitoring user, in test mode (queued on kwtSMS, not delivered, no credits used):
+Check it as the monitoring user, in test mode (queued on kwtSMS, not delivered; the credits are held until you delete the message from the Sending Queue):
 
 ```sh
 sudo -u nagios kwtsms-cli --config /etc/kwtsms/kwtsms-cli.toml send --test --to 965XXXXXXXX --message "kwtSMS test"
