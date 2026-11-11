@@ -4,5 +4,4 @@
 
 ### Added
 
-- Nagios Core 4 host and service notification commands using kwtsms-cli.
-- Icinga 2 NotificationCommand objects with example notification rules.
+- Nagios Core 4 and Icinga 2 notification commands.
