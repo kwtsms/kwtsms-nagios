@@ -3,6 +3,8 @@
 Send Nagios Core and Icinga 2 alerts by SMS through [kwtSMS](https://www.kwtsms.com), the SMS gateway for Kuwait and
 the Gulf. Uses [kwtsms-cli](https://github.com/kwtsms/kwtsms-cli), one file with no dependencies.
 
+All kwtSMS integrations: [kwtsms.com/integrations](https://www.kwtsms.com/integrations/)
+
 ## Requirements
 
 - Nagios Core 4 or Icinga 2 (config checked on Nagios Core 4.5.12 and Icinga 2.16.6).
